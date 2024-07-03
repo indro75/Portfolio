@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indrojit</title>
+    <link rel="Stylesheet" href ="style.css">
+    <script src="https://kit.fontawesome.com/83686c2eb6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="Logo.PNG" width="170" class="logo">
+            <ul id="sidemenu"><h1>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </h1>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+            
+            <h1>
+                Hello! <br>I am <span>Indro</span>
+            </h1>
+            <br><p><h6>UI/UX Designer & Web Developer</h6></p>
+           </div>
+        </div>
+    </div>
+
+    <!-------about---------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                    <img src="Aboutme.JPG" >
+               </div>
+               <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Indro, an undergraduate student with a strong passion for becoming a developer and product designer.
+                     My interest in UI/UX design is complemented by my professional experience in graphic design, allowing me
+                      to blend creativity and technical expertise. I have a deep enthusiasm for programming and have developed 
+                      skills in C, C++, and JavaScript. My goal is to create innovative and user-friendly products that make a
+                       difference. Combining my design background with my programming knowledge, I aim to contribute to the d
+                       evelopment of cutting-edge solutions and continuously learn and grow in this ever-evolving field.               </p>
+        
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>   
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>   
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Website Development with HTML,CSS & JAVA SCRIPT</li>
+                            <li><span>Graphic Design</span><br>Logo Design,Poster Design,Flyer Design,Brochure Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Instructor of Graphic Design at Way Of Mentor</li>
+                            <li><span>2024-Current</span><br>Graphic Designer at Khulna IT</li>
+                            <li><span>2022-Current</span><br>Being expert at C,C++ & Java Script</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Completed Graphic Design course from Khulna IT</li>
+                            <li><span>2023-2027(estimeted)</span><br>BSc (Computer Science & Engineering) from Norhern University Of Business & Technology,Khulna</li>
+                            <li><span>2022</span><br>Passed(GPA-5.00) HSC from Govt. Sundarban Adarsha College,Khulna</li>
+                            <li><span>2020</span><br>Passed(GPA-5.00) SSC from Khulna Zilla School,Khulna</li>
+                        </ul>
+                    </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>   
+
+<!-------services--------- --> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">   
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>here i will write all the service i'll provide as a ewb designer</p>
+                <a href="#">Learn more</a>
+            
+            </div>  
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UI/UX Design</h2>
+                <p>here i will write all the service i'll provide as a ewb designer</p>
+                <a href="#">Learn more</a>
+            
+            </div>     
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Graphic Design</h2>
+                <p>here i will write all the service i'll provide as a ewb designer</p>
+                <a href="#">Learn more</a>
+            
+            </div>            
+        </div>
+    </div>
+</div>
+
+<!------------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Flyer.JPG" >
+                <div class="layer">
+                    <h3>Flyer Design</h3>
+                    <p>This kind of corporate flyer design can promote your job.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Poster.JPG" >
+                <div class="layer">
+                    <h3>Poster Design</h3>
+                    <p>This kind of poster can promote your componay</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <h3></h3>
+            </div>
+            <div class="work">
+                <img src="LogoP-01.JPG" >
+                <div class="layer">
+                    <h3>Logo Design</h3>
+                    <p>This kind of logo can address your company's identity</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>            
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i></i>indro3311@gmai.com</p>
+                <p><i class="fa-solid fa-phone"></i>+8801826052926</p>
+                <div class="social-icons">
+                   <a href="https://www.facebook.com/indro.101/"><i class="fa-brands fa-facebook"></i></a> 
+                   <a href="https://www.instagram.com/indro.101/"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/indro101/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+  
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>   
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwjMmhvEHC2enqSrWGK4T479f0jqHtbh2_lRqLshClGkNIjperTQgnH_0Ziax1Tu422bg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML =""  
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+
+</body>
+</html>
